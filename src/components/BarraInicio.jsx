@@ -8,7 +8,7 @@ function BarraInicio(){
     return (
         <nav className='barra-inicio'>
         <div>
-           <Link to={'/'}><img className='logo' src='src/assets/logo-biblioteca.png' alt="logo" /></Link> 
+           <Link to={'/'}><img className='logo' src='public/logo-biblioteca.png' alt="logo" /></Link> 
         </div>
         <div className='botones-barra'>            
             <Link to={'/protected'}><button className='boton-azul'>Inicio</button></Link>

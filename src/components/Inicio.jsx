@@ -26,7 +26,7 @@ function Inicio() {
               <p className='subtitulo' >Lee y aprende</p>
           </div>
           <div>
-              <img className='img-portada' src="src/assets/portada.jpeg" alt="portada" />
+              <img className='img-portada' src="public/portada.jpeg" alt="portada" />
           </div>
       </section>
       </>
