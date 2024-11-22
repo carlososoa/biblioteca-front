@@ -1,0 +1,64 @@
+.boton-rojo{ 
+    color: white;
+    background-color: #e81e4a;
+    border-radius: 3px;
+    border: none;
+    padding: 15px 32px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 10px;
+    cursor: pointer;
+    
+}
+.boton-azul{ 
+    color: white;
+    background-color:#078a85;
+    border-radius: 3px;
+    border: none;
+    padding: 15px 32px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.barra-inicio{
+    display: flex;
+    justify-content: space-between;       
+    background-color: #0b1d21;
+    padding: 10px;
+}
+
+.logo{
+    width: 150px;
+}
+
+.botones-barra{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+.contenedor-portada{
+    margin-top: 60px;
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row;
+
+}
+.img-portada{
+    width: 500px;
+}
+#cuadro-texto{
+    width: 500px;
+    margin-left: 60px;
+}
+.titulo-principal{
+    color: #0b1d21;
+    font-weight: bold;
+    font-size: 50px;
+}
+.subtitulo{
+    color: #68baab;
+    font-size: 40px;
+    text-align: center;
+}
