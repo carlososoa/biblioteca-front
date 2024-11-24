@@ -1,0 +1,75 @@
+#form-nuevo-libro{
+
+    background-color:#078a85;
+    padding: 20px;
+    padding-top: 0px;
+    
+
+}
+.desplegable-nuevo-libro{
+    border-radius: 5px;
+    border: 0px;
+    width: 260px;
+    height: 30px;
+    font-size: 17px;
+    background-color: white;
+}
+.titulo-formulario{
+    margin: 0px;
+    margin-top: 20px;
+}
+.contenedor-form-nuevo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;    
+    margin-bottom: 20px;
+}
+.contenedor-edit-libro{
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+/* Estilos generales de la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    margin-top: 0px;
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    text-align: left;
+  }
+  
+  /* Estilos para el encabezado de la tabla */
+  thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  /* Estilos para las celdas de la tabla */
+  th, td {
+    padding: 12px 15px;
+  }
+  
+  /* Estilos para las filas impares de la tabla */
+  tbody tr:nth-child(even) {
+    background-color: #f3f3f3;
+  }
+  
+  /* Estilos para las filas al pasar el cursor */
+  tbody tr:hover {
+    background-color: #ddd;
+    cursor: pointer;
+  }
+  
+  /* Estilos para bordes */
+  table, th, td {
+    border: 1px solid #dddddd;
+  }
+  

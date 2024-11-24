@@ -1,0 +1,22 @@
+#pestanias{
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin-bottom: 0;
+    margin-top: 0px;
+}
+#pestanias li {
+    
+    border-right: solid 1px;
+    border-bottom: solid 1px;
+    padding: 5px;
+    
+}
+#pestanias li:hover{
+    font-weight: bold;
+    
+}
+#titulo{
+    margin-bottom: 0px;
+}

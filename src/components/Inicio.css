@@ -18,14 +18,18 @@
     padding: 15px 32px;
     font-size: 15px;
     font-weight: bold;
+    margin-right: 10px;
     cursor: pointer;
 
 }
 .barra-inicio{
+    position: sticky;
+    top: 0;
     display: flex;
     justify-content: space-between;       
     background-color: #0b1d21;
     padding: 10px;
+
 }
 
 .logo{
