@@ -1,0 +1,21 @@
+#tabla-usuarios{
+    max-width: 100px;
+}
+#form-actualizar-usuario{
+
+    background-color:#078a85;
+    padding: 20px;
+    padding-top: 0px;   
+
+}
+#contenedor-prestamo{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
+#label-buscar{
+    font-size: 20px;
+    font-weight: bold;
+}
