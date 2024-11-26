@@ -58,6 +58,42 @@ function NuevoPrestamo() {
     
       }
 
+      const onSubmitForm2 = handleSubmitForm2((data) => {
+
+        const enviarDatos = async () =>{
+          const respuesta = await fetch(`${url_api}/prestamo`, {
+            method: "POST",
+            body: JSON.stringify(data), // data can be `string` or {object}!
+            headers: {
+              "Content-Type": "application/json",
+            },
+          })
+
+          if (respuesta.status == 201) {           
+             
+            alert('Se ha registrado el prestamo con exito')   
+    
+          } else if (respuesta.status == 500) {
+            const respuestaTexto = await respuesta.text()
+              alert(respuestaTexto)
+    
+          } else {
+            const respuestaJson = await respuesta.json()
+            alert(respuestaJson.mensaje[0].msg)
+          }
+        }
+    
+        try {
+          enviarDatos()
+
+    
+        } catch (error) {
+          console.log(error);
+        }
+
+        
+      })
+
       const onSubmit = handleSubmit((data) => {
 
         const enviarDatos = async () => {
@@ -148,7 +184,7 @@ function NuevoPrestamo() {
 
                 </div>
                 <div>
-                    <form id='form-actualizar-usuario' action="">
+                    <form id='form-actualizar-usuario' onSubmit={onSubmitForm2} >
                         <h4 className='titulo-formulario' >Prestar libro</h4>
                         <div className='contenedor-form-nuevo'>
                             <label htmlFor="username">Usuario</label>
