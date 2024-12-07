@@ -11,6 +11,7 @@ function NavBar(){
            <Link to={'/'}><img className='logo' src='/assets/logo-biblioteca.png' alt="logo" /></Link> 
         </div>
         <div className='botones-barra'>
+            <Link to={'/admin-prestamo'}> <button className='boton-azul' >Prestamos</button> </Link>             
             <Link to={'/admin-libros'}> <button className='boton-azul' >Admin Libros</button> </Link>             
 
             <Logout/>            

@@ -11,6 +11,7 @@ import ProtectedPage from './components/ProtectedPage';
 import ProtectedRoute from './components/ProtectedRoute';
 import AdminLibros from './components/AdminLibros';
 import NuevoPrestamo from './components/NuevoPrestamo';
+import AdminPrestamos from './components/AdminPrestamos';
 
 function App() { 
 
@@ -25,6 +26,7 @@ function App() {
           <Route path="/protected" element={ <ProtectedRoute> <ProtectedPage/> </ProtectedRoute>   } />
           <Route path="/admin-libros" element={ <ProtectedRoute> <AdminLibros/> </ProtectedRoute>   } />
           <Route path="/nuevo-prestamo/:libro_id" element={ <ProtectedRoute> <NuevoPrestamo/> </ProtectedRoute>   } />
+          <Route path="/admin-prestamo" element={ <ProtectedRoute> <AdminPrestamos/> </ProtectedRoute>   } />
           
 
    
